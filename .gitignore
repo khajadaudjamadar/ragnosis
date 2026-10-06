@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+# Secrets
+.env
+# Node
+node_modules/
+dist/
+# Runtime data
+backend/data/uploads/*
+backend/data/indexes/*
+!backend/data/uploads/.gitkeep
+!backend/data/indexes/.gitkeep
+.DS_Store
